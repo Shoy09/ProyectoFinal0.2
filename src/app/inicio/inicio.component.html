@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+
+<div class="inicio-container">
+  <app-inicio-admin *ngIf="isAdmin"></app-inicio-admin>
+  <app-hero [title]="heroTitle" [description]="heroDescription" [showButton]="showHeroButton"></app-hero>
+  <app-features-contact></app-features-contact>
+  <app-informacion-contacto></app-informacion-contacto>
+</div>

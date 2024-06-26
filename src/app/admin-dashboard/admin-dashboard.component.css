@@ -1,0 +1,37 @@
+.admin-dashboard-container {
+    padding: 20px;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .chart {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .company-history {
+    text-align: center;
+    margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+  }
+  
+  .company-history p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  

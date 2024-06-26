@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<div class="inicio-container">
+  <app-hero [title]="heroTitle" [description]="heroDescription" [showButton]="showHeroButton"></app-hero>
+  
+  <!-- Separación visual -->
+  <div class="component-separator"></div>
+
+  <!-- Incluir los componentes -->
+  <app-nuestra-historia [historia]="historia"></app-nuestra-historia>
+  <app-nuestra-mision [mision]="mision"></app-nuestra-mision>
+  <app-nuestros-valores [valores]="valores"></app-nuestros-valores>
+  <app-equipo [equipoDescription]="equipoDescription"></app-equipo>
+
+  <!-- Incluir el componente de información de contacto -->
+  <app-informacion-contacto></app-informacion-contacto>
+</div>
