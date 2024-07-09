@@ -1,0 +1,14 @@
+
+.carousel-item img {
+    object-fit: cover;
+    height: calc(110vh - 60px); /* Ajustar según el tamaño del navbar */
+    max-width: 100%;
+}
+h2.display-4 {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+p.lead {
+    color: #6c757d;
+}

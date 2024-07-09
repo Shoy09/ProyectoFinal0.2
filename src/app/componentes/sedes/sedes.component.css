@@ -1,0 +1,61 @@
+.py-5{
+    margin-top: 85px;
+}
+#sedes {
+    background-color: #f8f9fa;
+}
+
+#sedes .card {
+    transition: transform 0.3s;
+}
+
+#sedes .card:hover {
+    transform: scale(1.05);
+}
+
+#sedes .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#sedes .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#sedes .card-text {
+    font-size: 1rem;
+    color: #666;
+}
+/* Efecto de sombra y animación */
+#sedes .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sedes .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Animación para el texto */
+#sedes .card-body {
+    transition: background-color 0.3s;
+}
+
+#sedes .card:hover .card-body {
+    background-color: #e0f7fa;
+}
+
+#sedes .card .btn-contact {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#sedes .card .btn-contact:hover {
+    background-color: #0056b3;
+}
+

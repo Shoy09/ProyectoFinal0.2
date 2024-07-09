@@ -1,0 +1,35 @@
+
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  color: #ffc107;
+  margin-bottom: 20px;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer ul li img {
+  margin-right: 10px;
+}
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .derechos {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ffc107;
+  padding-top: 20px;
+  color: #ffc107;
+}
